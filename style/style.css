@@ -1,6 +1,11 @@
+.GOOGLE {
+	display : flex;
+	justify-content : center;
+	align-items : center;
+}
 .google {
 	font-size: 80px;
-	text-align: center;
+	margin : 0 auto;
 	display : grid;
 	grid-template-columns : 55px 40px 40px 40px 20px 40px;
 }
@@ -30,13 +35,32 @@ color: red;
 }
 
 #search {
+display : flex;
+justify-content : center;
+align-items: center;
 width : 500px;
 height : 40px;
 margin : 40px;
+border-radius: 24px;
 }
 
 button{
+display: flex;
+justify-content : center;
+align-items: center;
 margin: auto;
 width : 150px;
 height: 30px;
+border-radius: 8px;
+}
+
+#boutons{
+display: grid;
+grid-template-columns: 150px 150px;
+}
+
+#haut-droite{
+display : flex;
+justify-content: top;
+align-items : end;
 }
