@@ -1,7 +1,10 @@
 img {
-
+    height: 92px;
+    width: 272px;
 }
-
+#img{
+    text-align: center;
+}
 #search:hover {
     box-shadow: 0px 0px 6px 0px #D6D6D6;
     border-style: none;
@@ -13,6 +16,8 @@ img {
     height: 40px;
     border-width: 0.1px;
     border-color: #D6D6D6;
+    margin : 10px;
+    border-style : solid;
 }
 
 #M {
