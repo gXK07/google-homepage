@@ -1,13 +1,11 @@
 header{
     position: absolute;
     top : 15;
-    right: 30;
+    right: 20;
 }
-a {
+a{
     text-decoration: none;
     color : #303030;
-    font : arial;
- 
     
 }
 
@@ -17,7 +15,7 @@ a:hover {
 
 #M {
     border-radius: 50%;
-    background-color: rgb(0, 128, 107);
+    background-color: rgb(6, 151, 127);
     color : white;
     width: 32px;
     height: 32px;
@@ -27,8 +25,31 @@ a:hover {
     display: inline-block;
     text-align: center;
     line-height: 35px;
+    margin: 0 0px 0 9px;
 }
 
+#App{
+    width: 32px;
+    height: 32px;
+    margin: 0px 5px 0 15px;
+    opacity: 0.6;
+}
+
+#images{
+    margin: 0 6px 0 12px;
+    font-size: 13px;
+    font-family: arial;
+}
+
+#gmail {
+    font-size: 13px;
+    font-family: arial;
+}
+#App:hover{
+    box-shadow: 0px 0px 0px 9px #e4e4e4;
+    border-radius: 50%;
+    background-color: #e4e4e4;
+}
 #M:hover {
     text-decoration: none;
     box-shadow: 0px 0px 0px 4px #e4e4e4;
@@ -44,26 +65,26 @@ a:hover {
 
 
 
-
-
-
 #searchbar{
     position: relative;
-    top : 40%;
-    left : 28%;
-    width : 550px;
+    top : 41%;
+    left : 29%;
+    width : 582px;
 }
+
+
 #loupe{
     position: absolute;
-    left: 1.5%;
-    top: 25px;
-    height : 20px; 
-    width : 20px;
+    left: 4.5%;
+    top: 23px;
+    height : 19px; 
+    width : 19px;
+    opacity: 0.4;
 }
 
 #mic{
     position: absolute;
-    left: 36%;
+    left: 95%;
     top: 21px;
     height : 25px; 
     width : 25px;
@@ -76,12 +97,13 @@ a:hover {
 
 #search{
     border-radius: 24px;
-    width: 550px;
+    width: 582px;
     height: 45px;
     border-width: 0.1px;
-    border-color: #D6D6D6;
+    border-color: #f1f1f1;
     margin : 10px;
     border-style : solid;
+    padding-left: 40px;
 }
 
 
@@ -92,30 +114,27 @@ a:hover {
 
 #boutons{
     Position: relative;
-    top : 50%;
-    left : 40%;
-    width : 50px;
+    top : 43%;
+    left : 39.5%;
+    width : 300px;
 }
 
 button{
     background-color: #f8f9fa;
     border-style : none;
     border-radius: 4px;
-    width: 140px;
+    width: 135px;
     height: 35px;
     color : rgb(70, 70, 70);
     font: arial;
-    margin: 8px;
+    margin: 4px;
     font-size: 14px;
 }
 
-
-#B1{
-    position: absolute;
-    
+button:hover{
+    border : solid;
+    border-color: rgb(226, 226, 226);
+    border-width : 0.1px;
+    cursor: pointer;
 }
 
-#B2{
-    position: absolute;
-    left : 150px;
-}
