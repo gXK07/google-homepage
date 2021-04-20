@@ -3,36 +3,16 @@ header{
     top : 15;
     right: 30;
 }
-
-#searchbar{
-    position: absolute;
-    top : 40%;
-    left : 28%;
-}
-
-#boutons{
-    display: flex;
-    flex-direction: row;
-    justify-content: center;
-}
-
-#search:hover {
-    box-shadow: 0px 0px 6px 0px #D6D6D6;
-    border-style: none;
-}
-#search: active {
+a {
     text-decoration: none;
+    color : #303030;
+    font : arial;
+ 
+    
 }
-#search{
-    border-radius: 24px;
-    width: 550px;
-    height: 45px;
-    border-width: 0.1px;
-    border-color: #D6D6D6;
-    margin : 10px;
-    border-style : solid;
 
-
+a:hover {
+    text-decoration: underline;
 }
 
 #M {
@@ -41,23 +21,78 @@ header{
     color : white;
     width: 32px;
     height: 32px;
-    font: arial;
-}
-
-a {
-    text-decoration: none;
-    color : #303030;
-    font : arial, sans-serif;
-    font-size: 13px;
-}
-
-a:hover {
-    text-decoration: underline;
+    font-family: sans-serif;
+    font-weight: 80;
+    font-size: 17px;
+    display: inline-block;
+    text-align: center;
+    line-height: 35px;
 }
 
 #M:hover {
     text-decoration: none;
-    box-shadow: 0px 0px 10px 0px #4b4b4b;
+    box-shadow: 0px 0px 0px 4px #e4e4e4;
+}
+
+
+
+#google{
+    position: absolute;
+    top : 28%;
+    left : 40.5%;
+}
+
+
+
+
+
+
+#searchbar{
+    position: relative;
+    top : 40%;
+    left : 28%;
+}
+#loupe{
+    position: absolute;
+    left: 1.5%;
+    top: 25px;
+    height : 20px; 
+    width : 20px;
+}
+
+#mic{
+    position: absolute;
+    left: 36%;
+    top: 21px;
+    height : 25px; 
+    width : 25px;
+}
+
+#search:hover {
+    box-shadow: 0px 0px 6px 0px #D6D6D6;
+    border-style: none;
+}
+
+#search{
+    border-radius: 24px;
+    width: 550px;
+    height: 45px;
+    border-width: 0.1px;
+    border-color: #D6D6D6;
+    margin : 10px;
+    border-style : solid;
+}
+
+
+
+
+
+
+
+#boutons{
+    Position: relative;
+    top : 50%;
+    left : 50%;
 }
 
 button{
@@ -68,17 +103,15 @@ button{
     height: 35px;
     color : rgb(70, 70, 70);
     font: arial;
+    margin: 8px;
     font-size: 14px;
-    margin: 4px;
-    position: absolute;
-    top : 50%;
-    left : 50%;
 }
 
-#google{
-    width: 272px;
-    height: 91.93px;
+
+#B1{
     position: absolute;
-    top : 28%;
-    left : 40.5%;
+}
+
+#B2{
+    position: absolute;
 }
